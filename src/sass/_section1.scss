@@ -1,0 +1,178 @@
+.section1{
+    .texts{
+        .text1{
+        p{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 42px;
+         background-color:  #0082ba;
+         color: white;
+        }
+        }
+        .text2{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+         p{
+            transition: 1.2s;
+         }
+            &:hover{
+                p{
+                    color: #00a6ed;
+                }
+            }
+            h6{
+                font-size: 12px;
+                font-weight: normal;
+                transition: 1.2s;
+                &:hover{
+                 i{
+                     color: #0082ba;
+                 }
+                }
+                i{
+                    transition: 1.2s;
+                    font-size: 17px;
+                   padding-right: 10px;
+                   color: #00a6ed;
+                }
+            }
+            
+        }
+        .text3{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+             h2{
+                 letter-spacing: 4px;
+             }
+            .input{
+                input{
+                    height: 40px;
+                width: 580px;
+                border: 1px solid ;
+                border-color:#0082ba;
+                border-right-color: grey;
+                margin-top: -2px;
+                &:focus{
+                    outline: none;
+                  
+                  
+                }
+            }
+                button{
+                //  border: none;
+                 height: 40px;
+                 width: 50px;
+                 transition: 0.8s;
+                 border: 1px solid #0082ba ;
+                 border-left-color: grey;
+                 &:hover{
+                     
+                     color: #0082ba;
+                 }
+                
+            }
+        }
+        .icons{
+         
+            display: flex;
+            justify-content: space-between;
+            width: 100px;
+            .icon1{
+                background-color:#00a6ed ;
+                width: 40px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            
+            i{
+                font-size: 25px;
+                color: white;
+            }
+        }
+        }
+    }
+    }
+    .square{
+        display: flex;
+        table{
+         height: 340px;
+         background-color:#e1e8ed;
+         margin-top: 20px;
+         width: 250px;
+       
+         .ftr{
+                 display: flex;
+                 justify-content: space-between;
+                 height: 40px;
+                 align-items: center;
+                 font-size: 14px;
+                 font-weight: bold;
+                 background-color: #0082ba;
+                 color: white;
+                 letter-spacing: 2px;
+                 transition: 0.5s;
+               &:hover{
+                   color:grey;
+               }
+                
+         }
+         .all{
+            font-size: 14px;
+             height: 40px;
+            margin-top: 10px;
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+            font-weight:inherit;
+            transition: 0.5s;
+            font-weight:500;
+            color: #333;
+            &:hover{
+                color: #0082ba;
+            }
+            i{
+                font-size: 10px;
+            }
+         }
+       
+        }
+        .table2{
+          display: flex;
+          justify-content: space-around;
+        //   width: 750px;
+          height: 40px;
+          align-items: center;
+          font-weight: 500;
+          width: 800px;
+          font-size: 14px;
+          color: white;
+          background-color:#00a6ed;
+          margin-top: 20px;
+        }
+    }
+    .crs{
+        width: 800px;
+      img{
+          height: 400px;
+      }
+     
+    }
+    .carousel-indicators .active{
+        background-color: grey;
+        border-radius: 5px;
+        width: 20px;
+        height: 20px;
+    }
+    .carousel-indicators [data-bs-target]{
+        // background-color:white;
+        width: 15px;
+        height: 15px;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+
+}

@@ -1,0 +1,238 @@
+.section1 .texts .text1 p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 42px;
+  background-color: #0082ba;
+  color: white;
+}
+
+.section1 .texts .text2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.section1 .texts .text2 p {
+  -webkit-transition: 1.2s;
+  transition: 1.2s;
+}
+
+.section1 .texts .text2:hover p {
+  color: #00a6ed;
+}
+
+.section1 .texts .text2 h6 {
+  font-size: 12px;
+  font-weight: normal;
+  -webkit-transition: 1.2s;
+  transition: 1.2s;
+}
+
+.section1 .texts .text2 h6:hover i {
+  color: #0082ba;
+}
+
+.section1 .texts .text2 h6 i {
+  -webkit-transition: 1.2s;
+  transition: 1.2s;
+  font-size: 17px;
+  padding-right: 10px;
+  color: #00a6ed;
+}
+
+.section1 .texts .text3 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section1 .texts .text3 h2 {
+  letter-spacing: 4px;
+}
+
+.section1 .texts .text3 .input input {
+  height: 40px;
+  width: 580px;
+  border: 1px solid;
+  border-color: #0082ba;
+  border-right-color: grey;
+  margin-top: -2px;
+}
+
+.section1 .texts .text3 .input input:focus {
+  outline: none;
+}
+
+.section1 .texts .text3 .input button {
+  height: 40px;
+  width: 50px;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  border: 1px solid #0082ba;
+  border-left-color: grey;
+}
+
+.section1 .texts .text3 .input button:hover {
+  color: #0082ba;
+}
+
+.section1 .texts .text3 .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100px;
+}
+
+.section1 .texts .text3 .icons .icon1 {
+  background-color: #00a6ed;
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section1 .texts .text3 .icons .icon1 i {
+  font-size: 25px;
+  color: white;
+}
+
+.section1 .square {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section1 .square table {
+  height: 340px;
+  background-color: #e1e8ed;
+  margin-top: 20px;
+  width: 250px;
+}
+
+.section1 .square table .ftr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #0082ba;
+  color: white;
+  letter-spacing: 2px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.section1 .square table .ftr:hover {
+  color: grey;
+}
+
+.section1 .square table .all {
+  font-size: 14px;
+  height: 40px;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: inherit;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-weight: 500;
+  color: #333;
+}
+
+.section1 .square table .all:hover {
+  color: #0082ba;
+}
+
+.section1 .square table .all i {
+  font-size: 10px;
+}
+
+.section1 .square .table2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 500;
+  width: 800px;
+  font-size: 14px;
+  color: white;
+  background-color: #00a6ed;
+  margin-top: 20px;
+}
+
+.section1 .crs {
+  width: 800px;
+}
+
+.section1 .crs img {
+  height: 400px;
+}
+
+.section1 .carousel-indicators .active {
+  background-color: grey;
+  border-radius: 5px;
+  width: 20px;
+  height: 20px;
+}
+
+.section1 .carousel-indicators [data-bs-target] {
+  width: 15px;
+  height: 15px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.crd {
+  width: 300px;
+  margin-top: 120px;
+}
+
+.crd img {
+  width: 100px;
+  height: 50px;
+}
+/*# sourceMappingURL=style.css.map */
